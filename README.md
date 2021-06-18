@@ -7,3 +7,7 @@ Example React Native TSX
 
 2. Add Prettier Plugin to format code
    yarn add --dev eslint-config-prettier eslint-plugin-prettier prettier
+
+3. Init Eslint Airbnb
+   yarn remove @react-native-community/eslint-config
+   yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
