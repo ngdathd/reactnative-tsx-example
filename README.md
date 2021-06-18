@@ -14,3 +14,6 @@ Example React Native TSX
 
 4. Absolute path for imports
    yarn add --dev babel-plugin-module-resolver
+
+5. Sort import
+   yarn add --dev eslint-plugin-simple-import-sort

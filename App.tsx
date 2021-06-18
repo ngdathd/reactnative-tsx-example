@@ -8,6 +8,7 @@
  * @format
  */
 
+import {b} from 'configs';
 import React from 'react';
 import {
     SafeAreaView,
@@ -18,7 +19,6 @@ import {
     useColorScheme,
     View,
 } from 'react-native';
-
 import {
     Colors,
     DebugInstructions,
@@ -26,6 +26,7 @@ import {
     LearnMoreLinks,
     ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {a} from 'views';
 
 const styles = StyleSheet.create({
     sectionContainer: {

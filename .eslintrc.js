@@ -1,7 +1,7 @@
 module.exports = {
     extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
     parser: '@typescript-eslint/parser',
-    plugins: ['react', '@typescript-eslint', 'prettier'],
+    plugins: ['react', '@typescript-eslint', 'simple-import-sort'],
     settings: {
         'import/resolver': {
             typescript: {},
@@ -20,5 +20,7 @@ module.exports = {
                 tsx: 'never',
             },
         ],
+        'simple-import-sort/imports': 'error',
+        'simple-import-sort/exports': 'error',
     },
 };
