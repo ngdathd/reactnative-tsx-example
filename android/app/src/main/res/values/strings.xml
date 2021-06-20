@@ -1,4 +1,3 @@
 <resources>
     <string name="app_name">rntsxexample</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDCly6ieNXmoCUQG9CFWn9HQCHhg-R5q9g</string>
 </resources>
