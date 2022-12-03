@@ -1,3 +1,4 @@
+import {aaa1} from 'abc';
 import {MapModel} from 'models';
 import React, {PureComponent} from 'react';
 import {Button, View} from 'react-native';
@@ -30,6 +31,8 @@ class Map extends PureComponent<IProps, IStates> {
             isFirstLoading: true,
             dataTest: Utilities.getDataInit(),
         };
+
+        console.log(aaa1);
     }
 
     onRegionChangeComplete = (region: Region) => {

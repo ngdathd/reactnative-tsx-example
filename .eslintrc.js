@@ -8,7 +8,7 @@ module.exports = {
         },
     },
     rules: {
-        indent: ['error', 4],
+        indent: 'off',
         'no-use-before-define': 'off',
         '@typescript-eslint/no-use-before-define': ['error'],
         'react/jsx-filename-extension': ['warn', {extensions: ['.tsx']}],
